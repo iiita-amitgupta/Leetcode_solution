@@ -11,7 +11,7 @@ public:
                 count += 1;
             }
         }
-        if(count == nums.size()) prod = 0;
+        // if(count == nums.size()) prod = 0;
         for(int i = 0; i < nums.size(); i++){
             if(count != 0){
                 if(nums[i] == 0 && count == 1){
