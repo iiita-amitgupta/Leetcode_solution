@@ -19,9 +19,7 @@ public:
             total += mp[product[i]] * amount[i];
         }
         if(customer_count % nth == 0){
-            cout << total << " ";
             total = total * ((100-dis)/100.0);
-            cout << total << " ";
         }
         return total;
     }
