@@ -6,6 +6,7 @@ public:
         for(int i = 0; i < pushed.size(); i++){
             stk.push(pushed[i]);
             while(!stk.empty() && stk.top() == popped[j]){
+                // cout << stk.top() << " ";
                 stk.pop();
                 j++;
             }
